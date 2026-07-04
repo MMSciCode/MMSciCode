@@ -1,0 +1,26 @@
+.DS_Store
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Evaluation outputs and local work dirs
+cache/
+intermediate_outputs/
+outputs/
+prompts/
+results/
+tmp/
+
+# Logs
+*.log
